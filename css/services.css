@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.serv-sec{
+    background-color: black;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.service-head{
+    color: white;
+    font-size: 76px;
+    font-family: serif;
+    margin-top: 82px;
+}
+
+.serv-background{
+    background-color: black;
+    color: white;
+}
+/* Section1 */
+
+.service-section{
+    min-height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serv-container{
+    width: 90%;
+    height: 105vh;
+    padding: 95px 44px;
+    margin: -36px auto;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+/* car */
+
+.serv-left-car{
+    padding-left: 222px;
+    width: 67%;
+    height: 554px;
+}
+
+.serv-left-car img{
+    width: 90vh;
+    height: 52vh;
+    margin-top: 45px;
+}
+
+/* bike */
+
+.serv-left-bike{
+    padding-left: 222px;
+    width: 67%;
+    height: 554px;
+}
+
+.serv-left-bike img{
+    width: 77vh;
+    margin-top: -78px;
+    margin-left: 69px;
+    height: 80vh;
+}
+
+.service-section-bike{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.serv-right{
+    width: 36%;
+    min-height: 354px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: black;
+    margin-left: -157px;
+}
+.serv-content{
+    height: 347px;
+    width: 286px;
+    
+}
+.serv-head-para{
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.serv-line{
+    width: 32vh;
+    border: 1px solid black;
+}
+
+.serv-para{
+    font-style: italic;
+    text-align: left;
+    font-size: 21px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.serv-book-now li{
+    list-style: none;
+}
+
+.serv-book-now li a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    color: black;
+    font-size: 20px;
+}
+
+.serv-book-now li a:hover{
+    color: grey;
+}
+
+
+@media only screen and (max-width: 1500px){
+
+    /* Section containter */
+
+    .service-section{
+        margin-top: -11vh;
+    }
+
+    .serv-container{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 10px;
+    }
+    .serv-left{
+        width: 100%;
+    }
+    .serv-right{
+        width: 80%;
+        margin: 0;
+        margin-top: -120px;
+    }
+
+}

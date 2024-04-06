@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   background-color: black;
+}
+
+.form-container form{
+   padding: 72px;
+   /* box-shadow: 0 5px 10px rgb(0 0 0 / 10%); */
+   background-color: white;
+   text-align: center;
+   width: 618px;
+}
+
+.login-input{
+   border: 1px solid black;
+}
+
+.form-container form h3{
+    margin-top: -35px;
+    font-size: 39px;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+    color: #333;
+}
+
+.form-container form input,
+.form-container form select{
+   width: 95%;
+   padding:10px 15px;
+   font-size: 16px;
+   margin:8px 0;
+}
+
+.form-container form select option{
+   background: #fff;
+}
+
+.form-container form .form-btn{
+   background: white;
+    color: black;
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   background: black;
+   color:#fff;
+}
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 17px;
+   color:#333;
+}
+
+.form-container form p a{
+   color:crimson;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
